@@ -1,4 +1,4 @@
-#project proposal           
+<h1>project proposal</h1>           
 <h2>names:</h2>
 <b>Christopher Benson (2015470)</b>
 <b>Jordano Anoia</b>
