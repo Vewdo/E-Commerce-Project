@@ -19,4 +19,4 @@ Run the application in a browser using [localhost](http://localhost/)
 The team behind the project is Christopher Benson and Jordano Anoia
 
 
-(license)[https://github.com/janoia/E-Commerce-Project/blob/main/LICENSE]
+[license](https://github.com/janoia/E-Commerce-Project/blob/main/LICENSE)
