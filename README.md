@@ -12,6 +12,7 @@ to run it, you will need a server, and type in [localhost](http://localhost/) in
 
 ## How to use it
 
+Run the application in a browser using [localhost](http://localhost/)
 
 ## Who worked on this project?
 
