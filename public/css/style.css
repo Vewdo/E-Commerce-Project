@@ -1,0 +1,287 @@
+body{
+    background-color: #434343;
+}
+
+nav a{
+        -webkit-touch-callout: none;
+        -webkit-user-select: none; 
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+        user-select: none;
+    }
+
+    
+
+    #select-Settings{
+        color: white;
+        font-size: 20;
+        list-style: none;
+        padding: 10;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none; 
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+        user-select: none;
+    }
+
+
+    #settingsNav li{
+        margin-bottom: 30;
+        
+    }
+
+    #sideMenu{
+        background-color: #363434;
+        width: 300;
+        height: 100%;
+        margin-left: -545;
+    }
+
+    #sideMenu li:hover{
+        color: white;
+        cursor: pointer;
+        background-color: gray;
+    }
+
+    #sideMenu li{
+        color: darkgray;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #dot1{
+        height: 25px;
+        width: 25px;
+         background: linear-gradient( -45deg, white, white 49%, white 49%, white 51%, black 51% ); 
+        border-radius: 50%;
+        display: inline-block;
+        border: 2px solid black;
+    }
+
+    #settingsNav{
+        margin: 0;
+        height: 50;
+    }
+
+    #container{
+        height: 100%;
+    }
+
+    #mainSettings{
+        color:  white;
+    }
+
+    #profile{
+        color: white;
+    }
+
+
+        .categories ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .categories li {
+          float: left;
+        }
+
+        .categories li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 0px 16px 0px 5px;
+          text-decoration: none;
+        }
+
+        .categories a:hover{
+            color: gray;
+        }
+
+        #colors{
+            cursor:pointer;
+        }
+
+        .button{
+            margin-top: 61px;
+            transition: all 0.75s ease;
+            display:block;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: rgba(255, 254, 254, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+        }
+
+        .button:hover{
+        background-color: rgba(131, 128, 128, 0.6);
+        }
+
+        .button2{
+            margin-top: 61px;
+            transition: all 0.75s ease;
+            display:block;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 254, 254, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;         
+        }
+
+        .button2:hover{
+        background-color: rgba(131, 128, 128, 0.6);
+        }
+
+        .icons{
+            display: flex;
+            width:100px; 
+            margin:0 auto;
+            
+        }
+
+        .end{
+            box-shadow: 0 50vh 0 50vh #000;
+            background-color: #161616;
+            color: white;
+            text-align: center;
+            font-size: 0.8vw;
+        }
+
+        .sidenav {
+          height: 100%; /* 100% Full-height */
+          width: 0; /* 0 width - change this with JavaScript */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+          left: 0;
+          background-color: #111; /* Black*/
+          overflow-x: hidden; /* Disable horizontal scroll */
+          padding-top: 60px; /* Place content 60px from the top */
+          transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        }
+
+        /* The navigation menu links */
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+
+        /* Position and style the close button (top right corner) */
+        .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        }
+
+        /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+        #main {
+          transition: margin-left .5s;
+          padding: 20px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+
+        .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+          text-decoration: none;
+        }
+
+        .sidenav a:hover {
+          color: #f1f1f1;
+          text-decoration: none;
+          background-color: #373737;
+        }
+
+        .sidenav:active{
+            color: #818181;
+            text-decoration: none;
+        }
+
+        .sidenav a:focus{
+            color: #f1f1f1;
+            text-decoration: none;
+        }
+
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+
+div .closebtn{
+    margin: 0;
+    padding: 0;
+}
+
+.closebtn:hover{
+    color: #d34040 !important;
+    background-color: black !important;
+}
+
+ div.closebtn:hover {
+          text-decoration: none;
+          color: #d34040 !important;
+            background-color: black !important;
+        }
+
+        a .closebtn:active{
+            color: #d34040 !important;
+            text-decoration: none;
+        }
+
+        .row1, .row2, .row3{
+            background-color: #000;
+            margin-top: 80px;
+            display: flex;
+        }
