@@ -16,7 +16,7 @@ Run the application in a browser using [localhost](http://localhost/)
 
 ## Who worked on this project?
 
-The team behind the project is Christopher Benson and Jordano Anoia
+The team behind the project is Christopher Benson and Jordano Anoia and ADAM MOOOOOOOOSSSSSSAAAAAAAA
 
 
 [license](https://github.com/janoia/E-Commerce-Project/blob/main/LICENSE)
