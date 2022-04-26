@@ -241,7 +241,7 @@
 });
 	
 
-	var isLight = <?php $hi = "true"; echo $hi; //search database?>;
+	var isLight = true//<?php  $_SESSION["favcolor"] = "light"; $_SESSION["favcolor"] = "light"?>
 
 	if(!isLight){
 		document.body.style.backgroundColor = "white";
@@ -345,6 +345,7 @@
 				document.getElementsByTagName("ul")[1].style.filter = "invert(0)";
 				document.getElementsByClassName("navbar-brand")[0].style.filter = "invert(0)";
 				$("#mainSettings").css("color", "white");
+				<?php  $_SESSION["favcolor"] = "dark";?>
 		}
 
 		function LightTheme(){
@@ -354,6 +355,8 @@
 			document.getElementsByTagName("ul")[1].style.filter = "invert(1)";
 			document.getElementsByClassName("navbar-brand")[0].style.filter = "invert(1)";
 			$("#mainSettings").css("color", "black");
+			<?php  $_SESSION["favcolor"] = "light";?>
+			document.cookie = "username=John Smith; expires=Thu, 18 Dec 9999 12:00:00 UTC; path=/";
 		}
 
 		function EditName() {

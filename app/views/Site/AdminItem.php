@@ -58,7 +58,7 @@ width: 130px;
 <body>
 	<nav class="navbar navbar-inverse">
 		<a class="navbar-brand" style="background-color:black;color: white;" href="/Main/Home">E-commerce project</a>
-				<ul class="nav navbar-nav";">
+				<ul class="nav navbar-nav">
       				<li><a href="/Main/timeline">Timeline</a></li>
       				<li><a href="/Contact/about">About</a></li>
      				<li><a href="/Contact/contactus">Contact us</a></li>

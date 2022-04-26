@@ -14,8 +14,6 @@
     	user-select: none;
 	}
 
-	
-
 	#select-Settings{
 		color: white;
 		font-size: 20;
@@ -194,3 +192,9 @@
 					 <li><a href="/Contact/report">Report</a></li>
      			</ul>
 	</nav>
+
+	<center>
+		
+	</center>
+
+</body>

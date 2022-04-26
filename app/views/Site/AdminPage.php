@@ -173,7 +173,14 @@
 	border: none;
 }
 
+center ul li:nth-child(0){
+	margin-left: 10px;
+}
 
+#select{
+  margin-left: 10%;
+  font-size: 30px;
+}
 
 
 </style>
@@ -196,11 +203,16 @@
      			</ul>
 	</nav>
 	<h1 style="color:red">ADMIN PAGE</h1>
+	<center>
 	<h2 style="color:red">Welcome to the admin page </h2>
 	<h2 style="color:white">Options </h2>
+	</center>
 
+<div class="container">
+<ul class="nav navbar-nav" id="select">
 	<li><a href="#" style="color:gray">Main Admin Page</a></li>
 	<li><a href="/Contact/report">View Reports</a></li>
 	<li><a href="/Site/UserPage">View Users</a></li>
 	<li><a href="/Contact/ItemPage">View Items</a></li>
-	
+	</ul>
+</div>

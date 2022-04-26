@@ -101,8 +101,8 @@
       				<li><a href="/Contact/about">About</a></li>
      				<li><a href="/Contact/contactus">Contact us</a></li>
 					 <li><a href="/Contact/report">Report</a></li>
-      				<li><form action="/Site/search" class="navbar-inner" id="searchForm" method="post">     				
-    				<input type="text" id="searchBox" name="input" size="45">
+      				<li><form action="/Site/search" class="navbar-inner" id="searchForm" method="post" onsubmit="validIn(event);">     				
+    				<input type="text" id="searchBox" name="input" size="30">
     				</li>
     				<button type="submit" form="searchForm" value="Submit" id="searchButton" style="font-size: larger;"><svg style="height:1.17em;" viewBox="0 0 12 13"><g stroke-width="2" stroke="#999999" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></button></li>
     			</form>   					
@@ -111,11 +111,11 @@
 
     			<ul class="nav navbar-nav navbar-right" style="margin-right: 0px;">
 				<li class="nav-item"><a class="nav-link" href="AdminPage" style="color :red"><i class="fas fa-sign-in-alt"></i> Admin</a></li>
-    				<li class="nav-item"><a class="nav-link" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+    				<li class="nav-item"><a class="nav-link" href="/Site/signup"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
   				<path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
   				<path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
 				</svg>Sign Up</a></li>
-      				<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+      				<li class="nav-item"><a class="nav-link" href="/Site/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
 					<li><a href="CartPage" style="padding-bottom: 0; top: -2px;"><span class="glyphicon glyphicon-shopping-cart" style="-webkit-filter: invert(1);filter: invert(1);margin-right: 15px;margin-left: 10px;"></span></a></li>
     			</ul>
 		</nav>		
@@ -159,6 +159,11 @@
 </div>
 
 <script>
+	function validIn(event) {
+		if(document.getElementById('searchBox').value == "")
+			event.preventDefault();
+	}
+
   function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
@@ -372,5 +377,4 @@ function closeNav() {
 </div>
 
 <script type="text/javascript">
-	
 </script>
